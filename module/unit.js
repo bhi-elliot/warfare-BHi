@@ -1,7 +1,8 @@
 const attributeLabels = {
 	attack: 'WARFARE.Attack',
 	power: 'WARFARE.Power',
-	morale: 'WARFARE.Morale'
+	morale: 'WARFARE.Morale',
+	command: 'WARFARE.Command'
 };
 
 export default function extendActor () {
