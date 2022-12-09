@@ -123,6 +123,31 @@
 				</div>
 			</div>
 		</div>
+		<div class="warfare-unit-stat-row">
+			<div>
+				<div class="warfare-unit-stat-key warfare-rollable" data-roll="command">
+					{{localize 'WARFARE.Command'}}:
+				</div>
+				<div class="warfare-unit-stat-value">
+					<label>
+						<span>{{number-format warfare.stats.command sign=true decimals=0}}</span>
+						<input type="text" class="warfare-unit-stat" data-dtype="Number" placeholder="&mdash;"
+						       name="flags.warfare.stats.command" value="{{warfare.stats.command}}">
+					</label>
+				</div>
+			</div>
+			<div>
+				<div class="warfare-unit-stat-key">{{localize 'WARFARE.Size'}}:</div>
+				<div class="warfare-unit-stat-value">
+					<label>
+						<span>{{warfare.stats.size}}</span>
+						<input type="text" class="warfare-unit-stat warfare-unit-size" data-dtype="String"
+						       placeholder="1d4" name="flags.warfare.stats.size"
+						       value="{{warfare.stats.size}}">
+					</label>
+				</div>
+			</div>
+		</div>
 	</section>
 	{{#if warfare.stats.casualties.max}}
 	<section class="warfare-unit-casualties">
