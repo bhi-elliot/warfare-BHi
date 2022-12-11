@@ -1,10 +1,9 @@
 {
-	"name": "warfare",
-	"id": "warfare",
-	"title": "Warfare",
+	"name": "warfare_with_commands",
+	"title": "Warfare with commands",
 	"description": "An implementation of MCDM's warfare rules.",
-	"authors": [{"name": "Kim Mantas - BHi"}],
-	"version": "1.2.0",
+	"authors": [{"name": "Kim Mantas - edited by BHi"}],
+	"version": "1.2.0-BHi",
 	"minimumCoreVersion": "10",
 	"compatibleCoreVersion": "10",
 	"compatibility": {
