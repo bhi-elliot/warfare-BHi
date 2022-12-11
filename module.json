@@ -1,6 +1,5 @@
 {
 	"name": "warfare",
-	"id": "warfare",
 	"title": "Warfare",
 	"description": "An implementation of MCDM's warfare rules.",
 	"authors": [{"name": "Kim Mantas - edited by BHi"}],
