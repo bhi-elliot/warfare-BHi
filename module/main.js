@@ -53,7 +53,7 @@ function setTheme (theme) {
 		const link = document.createElement('link');
 		link.type = 'text/css';
 		link.rel = 'stylesheet';
-		link.href = 'modules/warfare-with-command/styles/dark.css';
+		link.href = 'modules/warfare/styles/dark.css';
 		link.id = 'warfare-dark-sheet';
 		head.appendChild(link);
 	} else {

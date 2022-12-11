@@ -1,5 +1,5 @@
 {
-	"id": "warfare-with-command",
+	"id": "warfare",
 	"title": "Warfare with Command",
 	"description": "An implementation of MCDM's warfare rules, now with Commands.",
 	"authors": [
