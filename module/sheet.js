@@ -3,7 +3,7 @@ export default class WarfareUnitSheet extends dnd5e.applications.actor.ActorShee
 		return mergeObject(super.defaultOptions, {
 			classes: ['warfare', 'warfare-unit'],
 			scrollY: ['form'],
-			width: 340,
+			width: 400,
 			height: 415
 		});
 	}
