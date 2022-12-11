@@ -14,7 +14,7 @@
 	"esmodules": ["module/main.js"],
 	"styles": ["styles/light.css", "styles/warfare.css"],
 	"url": "https://github.com/bhi-elliot/warfare-BHi",
-	"manifest": "https://github.com/bhi-elliot/warfare-BHi/blob/56d61abb49d4dc5e401607a3674e048ca6caee9b/module.json",
+	"manifest": "https://github.com/bhi-elliot/warfare-BHi/blob/main/module.json",
 	"download": "https://github.com/bhi-elliot/warfare-BHi/archive/refs/heads/main.zip",
 	"bugs": "https://github.com/bhi-elliot/warfare-BHi/issues",
 	"license": "LICENSE",
