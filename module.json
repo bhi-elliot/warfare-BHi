@@ -1,16 +1,27 @@
 {
-	"name": "warfare",
-	"title": "Warfare",
-	"description": "An implementation of MCDM's warfare rules.",
-	"authors": [{"name": "Kim Mantas - edited by BHi"}],
+	"id": "warfare",
+	"title": "Warfare with Command",
+	"description": "An implementation of MCDM's warfare rules, now with Commands.",
+	"authors": [
+		{
+			"name": "Kim Mantas"
+		},
+		{
+			"name": "Berny Hi",
+			"discord": "bhi#3226"
+		}
+	],
 	"version": "1.2.0.2",
-	"minimumCoreVersion": "10",
-	"compatibleCoreVersion": "10",
 	"compatibility": {
 		"minimum": 10,
 		"verified": 10
 	},
-	"relationships.systems": ["dnd5e"],
+    "relationships": {
+        "systems": [{
+            "id": "dnd5e",
+            "type": "system"
+        }]
+    },
 	"esmodules": ["module/main.js"],
 	"styles": ["styles/light.css", "styles/warfare.css"],
 	"url": "https://github.com/bhi-elliot/warfare-BHi",
