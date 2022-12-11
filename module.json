@@ -10,7 +10,7 @@
 		"minimum": 10,
 		"verified": 10
 	},
-	"system": ["dnd5e"],
+	"relationships.systems": ["dnd5e"],
 	"esmodules": ["module/main.js"],
 	"styles": ["styles/light.css", "styles/warfare.css"],
 	"url": "https://github.com/bhi-elliot/warfare-BHi",
