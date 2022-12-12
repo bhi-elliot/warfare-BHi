@@ -4,7 +4,7 @@ export default class WarfareUnitSheet extends dnd5e.applications.actor.ActorShee
 			classes: ['warfare', 'warfare-unit'],
 			scrollY: ['form'],
 			width: 565,
-			height: 355
+			height: 395
 		});
 	}
 
