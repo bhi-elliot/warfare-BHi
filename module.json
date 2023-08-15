@@ -20,7 +20,7 @@
     "relationships": {
         "systems": [{
             "id": "dnd5e",
-            "type": "system"
+            "type": "system",
 			"compatibility": {
 				"minimum": "2.0.0",
 				"verified": "2.3.0"
