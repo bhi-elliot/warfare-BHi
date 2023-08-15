@@ -4,22 +4,27 @@
 	"description": "An implementation of MCDM's warfare rules, now with Commands.",
 	"authors": [
 		{
-			"name": "Kim Mantas"
+			"name": "Kim Mantas",
+			"url": "https://bitbucket.org/Fyorl/warfare/"
 		},
 		{
 			"name": "Berny Hi",
-			"discord": "bhi#3226"
+			"discord": "b_hi"
 		}
 	],
-	"version": "10.291-1.2.0-1.0",
+	"version": "11.307-1.2.1-1.1",
 	"compatibility": {
 		"minimum": 10,
-		"verified": 10
+		"verified": 11
 	},
     "relationships": {
         "systems": [{
             "id": "dnd5e",
             "type": "system"
+			"compatibility": {
+				"minimum": "2.0.0",
+				"verified": "2.3.0"
+			}
         }]
     },
 	"esmodules": ["module/main.js"],
